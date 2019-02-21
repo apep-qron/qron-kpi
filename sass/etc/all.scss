@@ -1,0 +1,51 @@
+$blue: #3bbfce;
+$margin: 16px;
+
+.content-navigation {
+  border-color: $blue;
+  color: darken($blue, 9%);
+}
+
+.border {
+  padding: $margin / 2; margin: $margin / 2; border-color: $blue;
+}
+
+.excel{
+  background-image: url(../resources/images/Excel.gif) !important;
+}
+
+.logout{
+  background-image: url(../resources/images/logout.png) !important;
+}
+
+.settings{
+  background-image: url(../resources/images/settings.png) !important;
+}
+
+.employee{
+  background-image: url(../resources/images/employee.png) !important;
+}
+
+.performances{
+  background-image: url(../resources/images/performances.png) !important;
+}
+
+.login{
+  background-image: url(../resources/images/door_in.png) !important;
+}
+
+.users{
+  background-image: url(../resources/images/users.png) !important;
+}
+
+.list{
+  background-image: url(../resources/images/application_view_list.png) !important;
+}
+
+.report{
+  background-image: url(../resources/images/report.png) !important;
+}
+
+.position{
+  background-image: url(../resources/images/rosette.png) !important;
+}
