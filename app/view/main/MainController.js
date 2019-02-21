@@ -47,14 +47,19 @@ Ext.define('qron.view.main.MainController', {
     },
 
     mainMenuUser: function () {
+        this.loadPanel('mainUsersTabPanel','qron.view.users.Users');
+    },
+
+    loadPanel: function(ref,mod) {
         var mainTabPanel = this.lookupReference('qronMainTabPanel');
-        var mainUsrTabPanel = this.lookupReference('mainUsersTabPanel');
-        if(!Ext.isEmpty(mainUsrTabPanel)){
-            mainTabPanel.setActiveTab(mainUsrTabPanel);
+        var tabItem = this.lookupReference(ref);
+        if(Ext.isEmpty(tabItem)){
+            var loadModule = Ext.create(mod);
+            tabItem = mainTabPanel.add(loadModule);
         }else {
-            var usersModule = Ext.create('qron.view.users.Users');
-            var usrTab = mainTabPanel.add(usersModule);
-            mainTabPanel.setActiveTab(usrTab);
+            
         }
+
+        mainTabPanel.setActiveTab(tabItem);
     }
 });

@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'qron' );
-$image-search-path: 'C:/wamp64/www/qron/build/development/qron/resources';
+$image-search-path: '/Users/ardi/projects/Qron/sencha/qron-kpi/build/development/qron/resources';
 $theme-name:  dynamic( 'theme-classic' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
