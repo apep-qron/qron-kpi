@@ -1,2 +1,2 @@
 // @tag full-page
-// @require /Users/ardi/projects/Qron/sencha/qron-kpi/app.js
+// @require C:\wamp64\www\qron\app.js

@@ -29,11 +29,11 @@ Ext.define('qron.view.login.LoginController', {
     },
 
     saveToken: function (token) {
-        localStorage.setItem('user-token', token);
+        localStorage.setItem('qronkpiusertoken', token);
     },
 
     clearToken: function () {
-        localStorage.removeItem('user-token');
+        localStorage.removeItem('qronkpiusertoken');
     }
 
 });

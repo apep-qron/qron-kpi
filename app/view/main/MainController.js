@@ -20,7 +20,7 @@ Ext.define('qron.view.main.MainController', {
     },
 
     getTokenFromLocalStorage: function () {
-        var token = localStorage.getItem('user-token');
+        var token = localStorage.getItem('qronkpiusertoken');
     },
 
     logout : function () {
@@ -28,7 +28,7 @@ Ext.define('qron.view.main.MainController', {
             function (choice) {
                 if (choice === 'yes') {
                     //do clear session here and then reload
-                    localStorage.removeItem('user-token');
+                    localStorage.removeItem('qronkpiusertoken');
                     window.location.reload();
                 }
             }
@@ -61,10 +61,7 @@ Ext.define('qron.view.main.MainController', {
         if(Ext.isEmpty(tabItem)){
             var loadModule = Ext.create(mod);
             tabItem = mainTabPanel.add(loadModule);
-        }else {
-            
         }
-
         mainTabPanel.setActiveTab(tabItem);
     }
 });
