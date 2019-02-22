@@ -55,6 +55,10 @@ Ext.define('qron.view.main.MainController', {
         this.loadPanel('mainUsersTabPanel','qron.view.users.Users');
     },
 
+    mainMenuOrg: function () {
+        this.loadPanel('mainOrgTabPanel','qron.view.organization.Organization');
+    },
+
     loadPanel: function(ref,mod) {
         var mainTabPanel = this.lookupReference('qronMainTabPanel');
         var tabItem = this.lookupReference(ref);

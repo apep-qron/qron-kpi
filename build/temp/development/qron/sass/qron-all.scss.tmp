@@ -1,5 +1,5 @@
 $app-name:  dynamic( 'qron' );
-$image-search-path: 'C:/wamp64/www/qron/build/development/qron/resources';
+$image-search-path: '/Users/ardi/projects/Qron/sencha/qron-kpi/build/development/qron/resources';
 $theme-name:  dynamic( 'theme-classic' );
 $include-ext-abstractcomponent: dynamic(true);;
 $include-ext-abstractcontainer: dynamic(true);;
@@ -892,6 +892,9 @@ $include-qron-view-main-list: dynamic(true);;
 $include-qron-view-main-main: dynamic(true);;
 $include-qron-view-main-maincontroller: dynamic(true);;
 $include-qron-view-main-mainmodel: dynamic(true);;
+$include-qron-view-organization-organization: dynamic(true);;
+$include-qron-view-organization-organizationcontroller: dynamic(true);;
+$include-qron-view-organization-organizationmodel: dynamic(true);;
 $include-qron-view-users-users: dynamic(true);;
 $include-qron-view-users-userscontroller: dynamic(true);;
 $include-qron-view-users-usersmodel: dynamic(true);;
