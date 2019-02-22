@@ -13,6 +13,7 @@ Ext.define('qron.view.login.Login',{
         type: 'login-login'
     },
     bodyPadding: 5,
+    reference : 'qronFormLoginWindow',
     title: 'Login Window',
     draggable: false,
     border: false,
@@ -41,7 +42,7 @@ Ext.define('qron.view.login.Login',{
             formBind: true,
             iconCls: 'login',
             listeners: {
-                click: 'onLoginClick'
+                click: 'doLogin'
             }
         }]
     }

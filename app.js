@@ -19,15 +19,12 @@ Ext.application({
     //mainView: 'qron.view.main.Main'
     //mainView: 'qron.view.login.Login'
     launch : function () {
-        var test = 2;
-        //Ext.Msg.alert('Test','Ok');
-        //this.getView('qron.view.main.Main').create();
-        if(test == 1){
-            Ext.create('qron.view.login.Login');
-            //this.setMainView('qron.view.login.Login');
-        }
-        if(test == 2){
+        var token = localStorage.getItem('user-token');
+
+        if(token){
             this.setMainView('qron.view.main.Main');
+        } else {
+            Ext.create('qron.view.login.Login');
         }
 
     }

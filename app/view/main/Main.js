@@ -96,7 +96,7 @@ Ext.define('qron.view.main.Main', {
                         {
                             title: 'Dashboard',
                             bind : {
-                                html: '{loremIpsum}'
+                                html: '{name}'
                             }
                         }
                     ]
