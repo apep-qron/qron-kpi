@@ -3194,17 +3194,7 @@ the height of a multi-line element */
     border: 1px solid #6594cf;
     pointer-events: none;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-progress-bar-default:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/progress/progress-default-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/ProgressBar.scss:160 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/ProgressBar.scss:160 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-progressbar-default-cell > .x-grid-cell-inner,
 .x-progress-default-cell > .x-grid-cell-inner,
 .x-progressbarwidget-default-cell > .x-grid-cell-inner {
@@ -3331,17 +3321,7 @@ the height of a multi-line element */
 .x-btn-default-small-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-default-small-fbg.gif), corners:url(images/btn/btn-default-small-corners.gif), sides:url(images/btn/btn-default-small-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-default-small {
     border-color: #d1d1d1;
 }
@@ -3772,47 +3752,7 @@ the height of a multi-line element */
 .x-nbr .x-segmented-button-item-vertical.x-btn-default-small.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-small-focus-corners.gif), sides:url(images/btn/btn-default-small-focus-sides.gif), frame-bg:url(images/btn/btn-default-small-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-small-over-corners.gif), sides:url(images/btn/btn-default-small-over-sides.gif), frame-bg:url(images/btn/btn-default-small-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-small-focus-over-corners.gif), sides:url(images/btn/btn-default-small-focus-over-sides.gif), frame-bg:url(images/btn/btn-default-small-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-small-pressed-corners.gif), sides:url(images/btn/btn-default-small-pressed-sides.gif), frame-bg:url(images/btn/btn-default-small-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-small-focus-pressed-corners.gif), sides:url(images/btn/btn-default-small-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-default-small-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-default-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-small-disabled-corners.gif), sides:url(images/btn/btn-default-small-disabled-sides.gif), frame-bg:url(images/btn/btn-default-small-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-default-small-cell > .x-grid-cell-inner {
     padding-top: 0;
     padding-bottom: 0;
@@ -3935,17 +3875,7 @@ the height of a multi-line element */
 .x-btn-default-medium-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-default-medium-fbg.gif), corners:url(images/btn/btn-default-medium-corners.gif), sides:url(images/btn/btn-default-medium-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-default-medium {
     border-color: #d1d1d1;
 }
@@ -4376,47 +4306,7 @@ the height of a multi-line element */
 .x-nbr .x-segmented-button-item-vertical.x-btn-default-medium.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-medium-focus-corners.gif), sides:url(images/btn/btn-default-medium-focus-sides.gif), frame-bg:url(images/btn/btn-default-medium-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-medium-over-corners.gif), sides:url(images/btn/btn-default-medium-over-sides.gif), frame-bg:url(images/btn/btn-default-medium-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-medium-focus-over-corners.gif), sides:url(images/btn/btn-default-medium-focus-over-sides.gif), frame-bg:url(images/btn/btn-default-medium-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-medium-pressed-corners.gif), sides:url(images/btn/btn-default-medium-pressed-sides.gif), frame-bg:url(images/btn/btn-default-medium-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-default-medium-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-default-medium-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-default-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-medium-disabled-corners.gif), sides:url(images/btn/btn-default-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-default-medium-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-default-medium-cell > .x-grid-cell-inner {
     padding-top: 0;
     padding-bottom: 0;
@@ -4539,17 +4429,7 @@ the height of a multi-line element */
 .x-btn-default-large-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-default-large-fbg.gif), corners:url(images/btn/btn-default-large-corners.gif), sides:url(images/btn/btn-default-large-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-default-large {
     border-color: #d1d1d1;
 }
@@ -4980,47 +4860,7 @@ the height of a multi-line element */
 .x-nbr .x-segmented-button-item-vertical.x-btn-default-large.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-large-focus-corners.gif), sides:url(images/btn/btn-default-large-focus-sides.gif), frame-bg:url(images/btn/btn-default-large-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-large-over-corners.gif), sides:url(images/btn/btn-default-large-over-sides.gif), frame-bg:url(images/btn/btn-default-large-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-large-focus-over-corners.gif), sides:url(images/btn/btn-default-large-focus-over-sides.gif), frame-bg:url(images/btn/btn-default-large-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-large-pressed-corners.gif), sides:url(images/btn/btn-default-large-pressed-sides.gif), frame-bg:url(images/btn/btn-default-large-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-large-focus-pressed-corners.gif), sides:url(images/btn/btn-default-large-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-default-large-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-default-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-large-disabled-corners.gif), sides:url(images/btn/btn-default-large-disabled-sides.gif), frame-bg:url(images/btn/btn-default-large-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-default-large-cell > .x-grid-cell-inner {
     padding-top: 0;
     padding-bottom: 0;
@@ -5040,6 +4880,7 @@ the height of a multi-line element */
     border-width: 1px;
     border-style: solid;
     background-color: transparent;
+    border-color: transparent;
 }
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-btn-default-toolbar-small-mc {
@@ -5117,17 +4958,7 @@ the height of a multi-line element */
 .x-btn-default-toolbar-small-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:3px 3px 3px 3px" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-default-toolbar-small {
     border-color: transparent;
 }
@@ -5548,47 +5379,7 @@ the height of a multi-line element */
 .x-nbr .x-segmented-button-item-vertical.x-btn-default-toolbar-small.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-small-focus-corners.gif), sides:url(images/btn/btn-default-toolbar-small-focus-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-small-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-small-over-corners.gif), sides:url(images/btn/btn-default-toolbar-small-over-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-small-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-small-focus-over-corners.gif), sides:url(images/btn/btn-default-toolbar-small-focus-over-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-small-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-small-pressed-corners.gif), sides:url(images/btn/btn-default-toolbar-small-pressed-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-small-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-small-focus-pressed-corners.gif), sides:url(images/btn/btn-default-toolbar-small-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-small-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-default-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-small-disabled-corners.gif), sides:url(images/btn/btn-default-toolbar-small-disabled-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-small-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-default-toolbar-small-cell > .x-grid-cell-inner {
     padding-top: 0;
     padding-bottom: 0;
@@ -5685,17 +5476,7 @@ the height of a multi-line element */
 .x-btn-default-toolbar-medium-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:3px 3px 3px 3px" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-default-toolbar-medium {
     border-color: transparent;
 }
@@ -6116,47 +5897,7 @@ the height of a multi-line element */
 .x-nbr .x-segmented-button-item-vertical.x-btn-default-toolbar-medium.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-default-toolbar-medium-focus-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-medium-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-default-toolbar-medium-over-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-medium-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-default-toolbar-medium-focus-over-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-medium-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-default-toolbar-medium-pressed-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-medium-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-default-toolbar-medium-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-medium-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-default-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-default-toolbar-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-medium-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-default-toolbar-medium-cell > .x-grid-cell-inner {
     padding-top: 0;
     padding-bottom: 0;
@@ -6253,17 +5994,7 @@ the height of a multi-line element */
 .x-btn-default-toolbar-large-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:3px 3px 3px 3px" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-default-toolbar-large {
     border-color: transparent;
 }
@@ -6684,47 +6415,7 @@ the height of a multi-line element */
 .x-nbr .x-segmented-button-item-vertical.x-btn-default-toolbar-large.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-default-toolbar-large-focus-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-large-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-large-over-corners.gif), sides:url(images/btn/btn-default-toolbar-large-over-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-large-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-default-toolbar-large-focus-over-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-large-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-default-toolbar-large-pressed-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-large-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-default-toolbar-large-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-large-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-default-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-default-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-default-toolbar-large-disabled-sides.gif), frame-bg:url(images/btn/btn-default-toolbar-large-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-default-toolbar-large-cell > .x-grid-cell-inner {
     padding-top: 0;
     padding-bottom: 0;
@@ -7363,17 +7054,7 @@ the height of a multi-line element */
 .x-toolbar-more-icon.x-rtl {
     background-image: url(images/toolbar/default-more-left.gif);
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-toolbar-default:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/toolbar/toolbar-default-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/toolbar/Toolbar.scss:232 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/toolbar/Toolbar.scss:232 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-toolbar-footer {
     padding: 4px 0 4px 6px;
     border-style: solid;
@@ -7521,17 +7202,7 @@ the height of a multi-line element */
 .x-toolbar-more-icon.x-rtl {
     background-image: url(images/toolbar/footer-more-left.gif);
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-toolbar-footer:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/toolbar/toolbar-footer-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/dd/StatusProxy.scss:1 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/dd/StatusProxy.scss:1 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-dd-drag-proxy {
     color: #000;
     font: normal 11px/normal tahoma, arial, verdana, sans-serif;
@@ -7783,35 +7454,7 @@ the height of a multi-line element */
 .x-panel .x-panel-header-default-collapsed-border-left {
     border-right-width: 1px !important;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/panel-header/panel-header-default-top-bg.gif), stretch:bottom" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/panel-header/panel-header-default-bottom-bg.gif), stretch:top" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/panel-header/panel-header-default-left-bg.gif), bg-rtl:url(images/panel-header/panel-header-default-left-bg-rtl.gif), stretch:right" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/panel-header/panel-header-default-right-bg.gif), bg-rtl:url(images/panel-header/panel-header-default-right-bg-rtl.gif), stretch:left" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/panel/Panel.scss:767 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/panel/Panel.scss:767 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-top {
     -webkit-box-shadow: #f3f7fb 0 1px 0px 0 inset;
     -moz-box-shadow: #f3f7fb 0 1px 0px 0 inset;
@@ -8139,17 +7782,7 @@ the height of a multi-line element */
 .x-panel-default-framed-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-default-framed:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:4px 4px 4px 4px, corners:url(images/panel/panel-default-framed-corners.gif), sides:url(images/panel/panel-default-framed-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-top {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -8270,17 +7903,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-top-mc {
     padding: 2px 2px 5px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:4px 4px 0 4px, frame-bg:url(images/panel-header/panel-header-default-framed-top-fbg.gif), corners:url(images/panel-header/panel-header-default-framed-top-corners.gif), sides:url(images/panel-header/panel-header-default-framed-top-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-right {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -8441,17 +8064,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-right-mc {
     padding: 2px 2px 2px 5px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left, frame:4px 4px 4px 0, frame-bg:url(images/panel-header/panel-header-default-framed-right-fbg.gif), frame-bg-rtl:url(images/panel-header/panel-header-default-framed-right-fbg-rtl.gif), corners:url(images/panel-header/panel-header-default-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-default-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-default-framed-right-sides.gif), sides-rtl:url(images/panel-header/panel-header-default-framed-right-sides-rtl.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-bottom {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -8572,17 +8185,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-bottom-mc {
     padding: 5px 2px 2px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top, frame:0 4px 4px 4px, frame-bg:url(images/panel-header/panel-header-default-framed-bottom-fbg.gif), corners:url(images/panel-header/panel-header-default-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-default-framed-bottom-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-left {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -8743,17 +8346,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-left-mc {
     padding: 2px 5px 2px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right, frame:4px 0 4px 4px, frame-bg:url(images/panel-header/panel-header-default-framed-left-fbg.gif), frame-bg-rtl:url(images/panel-header/panel-header-default-framed-left-fbg-rtl.gif), corners:url(images/panel-header/panel-header-default-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-default-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-default-framed-left-sides.gif), sides-rtl:url(images/panel-header/panel-header-default-framed-left-sides-rtl.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-collapsed-top {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -8874,17 +8467,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-collapsed-top-mc {
     padding: 2px 2px 2px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-collapsed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:4px 4px 4px 4px, frame-bg:url(images/panel-header/panel-header-default-framed-collapsed-top-fbg.gif), corners:url(images/panel-header/panel-header-default-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-default-framed-collapsed-top-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-collapsed-right {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -9045,17 +8628,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-collapsed-right-mc {
     padding: 2px 2px 2px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-collapsed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left, frame:4px 4px 4px 4px, frame-bg:url(images/panel-header/panel-header-default-framed-collapsed-right-fbg.gif), frame-bg-rtl:url(images/panel-header/panel-header-default-framed-collapsed-right-fbg-rtl.gif), corners:url(images/panel-header/panel-header-default-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-default-framed-collapsed-right-sides.gif), sides-rtl:url(images/panel-header/panel-header-default-framed-collapsed-right-sides-rtl.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-collapsed-bottom {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -9176,17 +8749,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-collapsed-bottom-mc {
     padding: 2px 2px 2px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-collapsed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top, frame:4px 4px 4px 4px, frame-bg:url(images/panel-header/panel-header-default-framed-collapsed-bottom-fbg.gif), corners:url(images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel-header-default-framed-collapsed-left {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -9347,17 +8910,7 @@ the height of a multi-line element */
 .x-panel-header-default-framed-collapsed-left-mc {
     padding: 2px 2px 2px 2px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-default-framed-collapsed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right, frame:4px 4px 4px 4px, frame-bg:url(images/panel-header/panel-header-default-framed-collapsed-left-fbg.gif), frame-bg-rtl:url(images/panel-header/panel-header-default-framed-collapsed-left-fbg-rtl.gif), corners:url(images/panel-header/panel-header-default-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-default-framed-collapsed-left-sides.gif), sides-rtl:url(images/panel-header/panel-header-default-framed-collapsed-left-sides-rtl.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/panel/Panel.scss:638 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/panel/Panel.scss:638 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-panel .x-panel-header-default-framed-top {
     border-bottom-width: 1px !important;
 }
@@ -9621,17 +9174,7 @@ the height of a multi-line element */
 .x-btn-group-default-framed-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-group-default-framed:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/btn-group/btn-group-default-framed-corners.gif), sides:url(images/btn-group/btn-group-default-framed-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-group-default-framed-notitle {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -9736,17 +9279,7 @@ the height of a multi-line element */
 .x-btn-group-default-framed-notitle-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-group-default-framed-notitle:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/btn-group/btn-group-default-framed-notitle-corners.gif), sides:url(images/btn-group/btn-group-default-framed-notitle-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/container/ButtonGroup.scss:101 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/container/ButtonGroup.scss:101 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-group-default-framed {
     border-color: #b7c8d7;
     -webkit-box-shadow: #e3ebf5 0 1px 0px 0 inset, #e3ebf5 0 -1px 0px 0 inset, #e3ebf5 -1px 0 0px 0 inset, #e3ebf5 1px 0 0px 0 inset;
@@ -9935,17 +9468,7 @@ the height of a multi-line element */
 .x-window-default-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-default:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/window/window-default-corners.gif), sides:url(images/window/window-default-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/window/Window.scss:250 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/window/Window.scss:250 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-body-default {
     border-color: #99bbe8;
     border-width: 1px;
@@ -10152,17 +9675,7 @@ the height of a multi-line element */
 .x-window-header-default-top-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 0 5px, corners:url(images/window-header/window-header-default-top-corners.gif), sides:url(images/window-header/window-header-default-top-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-right {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -10283,17 +9796,7 @@ the height of a multi-line element */
 .x-window-header-default-right-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 0, corners:url(images/window-header/window-header-default-right-corners.gif), corners-rtl:url(images/window-header/window-header-default-right-corners-rtl.gif), sides:url(images/window-header/window-header-default-right-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-bottom {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -10405,17 +9908,7 @@ the height of a multi-line element */
 .x-window-header-default-bottom-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 5px 5px 5px, corners:url(images/window-header/window-header-default-bottom-corners.gif), sides:url(images/window-header/window-header-default-bottom-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-left {
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
@@ -10536,17 +10029,7 @@ the height of a multi-line element */
 .x-window-header-default-left-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 0 5px 5px, corners:url(images/window-header/window-header-default-left-corners.gif), corners-rtl:url(images/window-header/window-header-default-left-corners-rtl.gif), sides:url(images/window-header/window-header-default-left-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-collapsed-top {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -10651,17 +10134,7 @@ the height of a multi-line element */
 .x-window-header-default-collapsed-top-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-collapsed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/window-header/window-header-default-collapsed-top-corners.gif), sides:url(images/window-header/window-header-default-collapsed-top-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-collapsed-right {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -10775,17 +10248,7 @@ the height of a multi-line element */
 .x-window-header-default-collapsed-right-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-collapsed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/window-header/window-header-default-collapsed-right-corners.gif), corners-rtl:url(images/window-header/window-header-default-collapsed-right-corners-rtl.gif), sides:url(images/window-header/window-header-default-collapsed-right-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-collapsed-bottom {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -10890,17 +10353,7 @@ the height of a multi-line element */
 .x-window-header-default-collapsed-bottom-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-collapsed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/window-header/window-header-default-collapsed-bottom-corners.gif), sides:url(images/window-header/window-header-default-collapsed-bottom-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-collapsed-left {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -11014,17 +10467,7 @@ the height of a multi-line element */
 .x-window-header-default-collapsed-left-mc {
     padding: 1px 1px 1px 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-window-header-default-collapsed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/window-header/window-header-default-collapsed-left-corners.gif), corners-rtl:url(images/window-header/window-header-default-collapsed-left-corners-rtl.gif), sides:url(images/window-header/window-header-default-collapsed-left-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/window/Window.scss:522 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/window/Window.scss:522 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-window-header-default-top {
     -webkit-box-shadow: #ecf2fb 0 1px 0px 0 inset, #ecf2fb -1px 0 0px 0 inset, #ecf2fb 1px 0 0px 0 inset;
     -moz-box-shadow: #ecf2fb 0 1px 0px 0 inset, #ecf2fb -1px 0 0px 0 inset, #ecf2fb 1px 0 0px 0 inset;
@@ -12293,23 +11736,7 @@ a.x-monthpicker-item-inner:hover {
     background-repeat: repeat-x;
     background-position: top left;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-datepicker-header:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/datepicker/datepicker-header-bg.gif), stretch:bottom" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-datepicker-footer:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/datepicker/datepicker-footer-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/form/field/Date.scss:2 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/form/field/Date.scss:2 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-form-field-date .x-form-date-trigger {
     background-image: url(images/form/date-trigger.gif);
 }
@@ -12492,17 +11919,7 @@ a.x-monthpicker-item-inner:hover {
 .x-tip-default-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tip-default:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:3px 3px 3px 3px, corners:url(images/tip/tip-default-corners.gif), sides:url(images/tip/tip-default-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/var/tip/Tip.scss:313 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/var/tip/Tip.scss:313 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-tip-default {
     background-color: #e9f2ff;
     border-color: #8eaace;
@@ -12719,17 +12136,7 @@ a.x-monthpicker-item-inner:hover {
 .x-tip-form-invalid-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tip-form-invalid:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/tip/tip-form-invalid-corners.gif), sides:url(images/tip/tip-form-invalid-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/var/tip/Tip.scss:313 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/var/tip/Tip.scss:313 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-tip-form-invalid {
     background-color: #fff;
     border-color: #a1311f;
@@ -13290,23 +12697,7 @@ a.x-color-picker-item:hover {
 .x-nlg .x-grid-item-selected .x-grid-cell-special {
     background-image: url(images/grid/cell-special-selected-bg.gif);
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-grid-cell-special .x-cmd-slicer.x-grid-cell-special:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/grid/cell-special-bg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-grid-cell-special .x-cmd-slicer.x-grid-cell-special-selected:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/grid/cell-special-selected-bg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/view/Table.scss:194 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/view/Table.scss:194 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-rtl.x-grid-cell-special {
     border-right-width: 0;
     border-left-width: 1px;
@@ -13578,23 +12969,7 @@ a.x-color-picker-item:hover {
 .x-no-header-borders .x-column-header .x-column-header-inner {
     padding-top: 4px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-column-header:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/grid/column-header-bg.gif), stretch:bottom" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-column-header-over:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/grid/column-header-over-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/grid/column/Action.scss:1 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/grid/column/Action.scss:1 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-grid-cell-inner-action-col {
     padding: 2px 2px 2px 2px;
 }
@@ -14094,17 +13469,7 @@ a.x-color-picker-item:hover {
 .x-btn-grid-cell-small-mc {
     padding: 0px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-grid-cell-small-fbg.gif), corners:url(images/btn/btn-grid-cell-small-corners.gif), sides:url(images/btn/btn-grid-cell-small-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-btn-grid-cell-small {
     border-color: #d1d1d1;
 }
@@ -14535,47 +13900,7 @@ a.x-color-picker-item:hover {
 .x-nbr .x-segmented-button-item-vertical.x-btn-grid-cell-small.x-segmented-button-last:after {
     bottom: 1px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-grid-cell-small-focus-corners.gif), sides:url(images/btn/btn-grid-cell-small-focus-sides.gif), frame-bg:url(images/btn/btn-grid-cell-small-focus-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-grid-cell-small-over-corners.gif), sides:url(images/btn/btn-grid-cell-small-over-sides.gif), frame-bg:url(images/btn/btn-grid-cell-small-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-grid-cell-small-focus-over-corners.gif), sides:url(images/btn/btn-grid-cell-small-focus-over-sides.gif), frame-bg:url(images/btn/btn-grid-cell-small-focus-over-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-grid-cell-small-pressed-corners.gif), sides:url(images/btn/btn-grid-cell-small-pressed-sides.gif), frame-bg:url(images/btn/btn-grid-cell-small-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-grid-cell-small-focus-pressed-corners.gif), sides:url(images/btn/btn-grid-cell-small-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-grid-cell-small-focus-pressed-fbg.gif)" !important;
-}
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-grid-cell-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-grid-cell-small-disabled-corners.gif), sides:url(images/btn/btn-grid-cell-small-disabled-sides.gif), frame-bg:url(images/btn/btn-grid-cell-small-disabled-fbg.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-button-grid-cell-small-cell > .x-grid-cell-inner {
     padding-top: 1px;
     padding-bottom: 1px;
@@ -14972,17 +14297,7 @@ a.x-color-picker-item:hover {
 .x-ie8 .x-box-scroller-menu-default {
     background-color: #f0f0f0;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-menu-item-default-active:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/menu/menu-item-default-active-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/menu/Menu.scss:319 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/menu/Menu.scss:319 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-menu-default-menubar {
     border-style: solid;
     border-width: 1px;
@@ -15286,17 +14601,7 @@ a.x-color-picker-item:hover {
 .x-ie8 .x-box-scroller-menu-default-menubar {
     background-color: #f0f0f0;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-menu-item-default-menubar-active:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, bg:url(images/menu/menu-item-default-menubar-active-bg.gif), stretch:bottom" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/grid/filters/Filters.scss:1 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/grid/filters/Filters.scss:1 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-grid-filters-filtered-column {
     font-style: italic;
     font-weight: bold;
@@ -15627,17 +14932,7 @@ a.x-color-picker-item:hover {
 .x-grid-row-editor-buttons-default-bottom-mc {
     padding: 4px 0px 0px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-grid-row-editor-buttons-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 5px 5px 5px, corners:url(images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif), sides:url(images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-grid-row-editor-buttons-default-top {
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
@@ -15749,17 +15044,7 @@ a.x-color-picker-item:hover {
 .x-grid-row-editor-buttons-default-top-mc {
     padding: 0px 0px 4px 0px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-grid-row-editor-buttons-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 0 5px, corners:url(images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif), sides:url(images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:108 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/grid/plugin/RowEditing.scss:108 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-grid-row-editor-buttons {
     border-color: #99bce8;
 }
@@ -16338,17 +15623,7 @@ div.x-border-layout-ct {
 .x-tab-default-top-mc {
     padding: 0px 6px 3px 6px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:4px 4px 0 4px, frame-bg:url(images/tab/tab-default-top-fbg.gif), corners:url(images/tab/tab-default-top-corners.gif), sides:url(images/tab/tab-default-top-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-tab-default-bottom {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -16469,17 +15744,7 @@ div.x-border-layout-ct {
 .x-tab-default-bottom-mc {
     padding: 0px 6px 0px 6px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top, frame:4px 4px 4px 4px, frame-bg:url(images/tab/tab-default-bottom-fbg.gif), corners:url(images/tab/tab-default-bottom-corners.gif), sides:url(images/tab/tab-default-bottom-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-tab-default-left {
     -moz-border-radius-topleft: 4px;
     -webkit-border-top-left-radius: 4px;
@@ -16600,17 +15865,7 @@ div.x-border-layout-ct {
 .x-tab-default-left-mc {
     padding: 0px 5px 0px 6px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:4px 4px 4px 4px, frame-bg:url(images/tab/tab-default-left-fbg.gif), corners:url(images/tab/tab-default-left-corners.gif), sides:url(images/tab/tab-default-left-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-tab-default-right {
     -moz-border-radius-topleft: 0;
     -webkit-border-top-left-radius: 0;
@@ -16731,17 +15986,7 @@ div.x-border-layout-ct {
 .x-tab-default-right-mc {
     padding: 0px 6px 0px 5px;
 }
-<<<<<<< HEAD
-/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:4px 4px 4px 4px, frame-bg:url(images/tab/tab-default-right-fbg.gif), corners:url(images/tab/tab-default-right-corners.gif), sides:url(images/tab/tab-default-right-sides.gif)" !important;
-}
 /* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1597 */
-=======
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1597 */
->>>>>>> 4f548d98152aee023365cca5ef9ad95afb83d384
 .x-tab-default {
     border-color: #8db3e3;
     cursor: pointer;
@@ -16842,101 +16087,101 @@ div.x-border-layout-ct {
     -moz-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1890 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1890 */
 .x-tab-default-bottom.x-rtl {
     margin: 0 2px 0 0;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1895 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1895 */
 .x-tab-default-bottom.x-tab-rotate-left {
     margin: 0 2px 0 0;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1899 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1899 */
 .x-tab-default-bottom.x-tab-rotate-left.x-rtl {
     margin: 0 0 0 2px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1917 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1917 */
 .x-tab-default-bottom.x-tab-focus {
     -webkit-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1930 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1930 */
 .x-tab-default-bottom.x-tab-over {
     -webkit-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1959 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1959 */
 .x-tab-default-bottom.x-tab.x-tab-active {
     -webkit-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1988 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1988 */
 .x-tab-default-bottom.x-tab.x-tab-disabled {
     -webkit-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 -1px 0px 0 inset, #fff -1px 0 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2001 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2001 */
 .x-tab-default-left {
     margin: 2px 0 0 0;
     -webkit-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2005 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2005 */
 .x-tab-default-left.x-rtl {
     margin: 2px 0 0 0;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2010 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2010 */
 .x-tab-default-left.x-tab-rotate-right {
     margin: 0 0 2px 0;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2014 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2014 */
 .x-tab-default-left.x-tab-rotate-right.x-rtl {
     margin: 0 0 2px 0;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2032 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2032 */
 .x-tab-default-left.x-tab-focus {
     -webkit-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2045 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2045 */
 .x-tab-default-left.x-tab-over {
     -webkit-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2074 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2074 */
 .x-tab-default-left.x-tab.x-tab-active {
     -webkit-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2103 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2103 */
 .x-tab-default-left.x-tab.x-tab-disabled {
     -webkit-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     -moz-box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
     box-shadow: #fff 0 1px 0px 0 inset, #fff 1px 0 0px 0 inset;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2116 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2116 */
 .x-tab-button-default {
     height: 16px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2121 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2121 */
 .x-tab-inner-default {
     font: bold 11px/13px tahoma, arial, verdana, sans-serif;
     color: #416da3;
     max-width: 100%;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2137 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2137 */
 .x-tab-icon-right > .x-tab-inner-default,
 .x-tab-icon-left > .x-tab-inner-default {
     max-width: calc(100% - 16px);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2145 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2145 */
 .x-tab-icon-el-default {
     min-height: 16px;
     background-position: center center;
@@ -16944,56 +16189,56 @@ div.x-border-layout-ct {
     line-height: 16px;
     color: #416da3;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2146 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2146 */
 .x-tab-icon-left > .x-tab-icon-el-default,
 .x-tab-icon-right > .x-tab-icon-el-default {
     width: 16px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2151 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2151 */
 .x-tab-icon-top > .x-tab-icon-el-default,
 .x-tab-icon-bottom > .x-tab-icon-el-default {
     min-width: 16px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2167 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2167 */
 .x-tab-icon-el-default.x-tab-glyph {
     opacity: 0.5;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2180 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2180 */
 .x-ie8 .x-tab-icon-el-default.x-tab-glyph {
     color: #90acd0;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2187 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2187 */
 .x-tab-text.x-tab-icon-left > .x-tab-icon-el-default {
     margin-right: 4px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2191 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2191 */
 .x-tab-text.x-tab-icon-left > .x-tab-icon-el-default.x-rtl {
     margin-right: 0;
     margin-left: 4px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2198 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2198 */
 .x-tab-text.x-tab-icon-right > .x-tab-icon-el-default {
     margin-left: 4px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2202 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2202 */
 .x-tab-text.x-tab-icon-right > .x-tab-icon-el-default.x-rtl {
     margin-left: 0;
     margin-right: 4px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2209 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2209 */
 .x-tab-text.x-tab-icon-top > .x-tab-icon-el-default {
     margin-bottom: 4px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2213 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2213 */
 .x-tab-text.x-tab-icon-bottom > .x-tab-icon-el-default {
     margin-top: 4px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2218 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2218 */
 .x-tab-focus.x-tab-default {
     border-color: #8db3e3;
     background-color: #deecfd;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2284 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2284 */
 .x-tab-focus.x-tab-default .x-tab-button:before {
     position: absolute;
     content: ' ';
@@ -17004,16 +16249,16 @@ div.x-border-layout-ct {
     pointer-events: none;
     outline: 1px dotted #416da3;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2301 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2301 */
 .x-tab-focus.x-tab-default.x-tab-closable .x-tab-button:before {
     right: 14px;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2354 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2354 */
 .x-tab-over.x-tab-default {
     border-color: #8db3e3;
     background-color: #e8f2ff;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2454 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2454 */
 .x-tab-over.x-tab-default-top,
 .x-tab-over.x-tab-default-left,
 .x-tab-over.x-tab-default-right {
@@ -17026,7 +16271,7 @@ div.x-border-layout-ct {
     background-image: -ms-linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
     background-image: linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2459 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2459 */
 .x-tab-over.x-tab-default-bottom {
     background-image: none;
     background-color: #e8f2ff;
@@ -17037,29 +16282,29 @@ div.x-border-layout-ct {
     background-image: -ms-linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
     background-image: linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2466 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2466 */
 .x-tab-focus.x-tab-over.x-tab-default {
     border-color: #8db3e3;
     background-color: #e8f2ff;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
 .x-tab.x-tab-active.x-tab-default {
     border-color: #8db3e3;
     background-color: #deecfd;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2637 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2637 */
 .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
     color: #15498b;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2657 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2657 */
 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
     color: #15498b;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2665 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2665 */
 .x-ie8 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
     color: #7a9bc4;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2679 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2679 */
 .x-tab.x-tab-active.x-tab-default-top,
 .x-tab.x-tab-active.x-tab-default-left,
 .x-tab.x-tab-active.x-tab-default-right {
@@ -17072,7 +16317,7 @@ div.x-border-layout-ct {
     background-image: -ms-linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
     background-image: linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2685 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2685 */
 .x-tab.x-tab-active.x-tab-default-bottom {
     background-image: none;
     background-color: #deecfd;
@@ -17083,37 +16328,37 @@ div.x-border-layout-ct {
     background-image: -ms-linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
     background-image: linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2692 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2692 */
 .x-tab-focus.x-tab-active.x-tab-default {
     border-color: #8db3e3;
     background-color: #deecfd;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2808 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2808 */
 .x-tab.x-tab-disabled.x-tab-default {
     border-color: #bbd2ef;
     background-color: #e1ecfa;
     cursor: default;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2868 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2868 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
     color: #c3b3b3;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2892 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2892 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el-default {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     opacity: 0.5;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2897 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2897 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
     color: #c3b3b3;
     opacity: 0.3;
     filter: none;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2912 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2912 */
 .x-ie8 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
     color: #d8dbe5;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2925 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2925 */
 .x-tab.x-tab-disabled.x-tab-default-top,
 .x-tab.x-tab-disabled.x-tab-default-left,
 .x-tab.x-tab-disabled.x-tab-default-right {
@@ -17126,7 +16371,7 @@ div.x-border-layout-ct {
     background-image: -ms-linear-gradient(top, #e1ecfa, #ecf4fe);
     background-image: linear-gradient(top, #e1ecfa, #ecf4fe);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2931 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2931 */
 .x-tab.x-tab-disabled.x-tab-default-bottom {
     background-image: none;
     background-color: #e1ecfa;
@@ -17137,11 +16382,11 @@ div.x-border-layout-ct {
     background-image: -ms-linear-gradient(bottom, #e1ecfa, #ecf4fe);
     background-image: linear-gradient(bottom, #e1ecfa, #ecf4fe);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2938 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2938 */
 .x-nbr .x-tab-default {
     background-image: none;
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
 .x-tab-over .x-tab-default-top-tl,
 .x-tab-over .x-tab-default-top-bl,
 .x-tab-over .x-tab-default-top-tr,
@@ -17150,17 +16395,17 @@ div.x-border-layout-ct {
 .x-tab-over .x-tab-default-top-bc {
     background-image: url(images/tab/tab-default-top-over-corners.gif);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
 .x-tab-over .x-tab-default-top-ml,
 .x-tab-over .x-tab-default-top-mr {
     background-image: url(images/tab/tab-default-top-over-sides.gif);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
 .x-tab-over .x-tab-default-top-mc {
     background-repeat: repeat-x;
     background-image: url(images/tab/tab-default-top-over-fbg.gif);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
 .x-tab-focus .x-tab-default-top-tl,
 .x-tab-focus .x-tab-default-top-bl,
 .x-tab-focus .x-tab-default-top-tr,
@@ -17169,12 +16414,12 @@ div.x-border-layout-ct {
 .x-tab-focus .x-tab-default-top-bc {
     background-image: url(images/tab/tab-default-top-focus-corners.gif);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
 .x-tab-focus .x-tab-default-top-ml,
 .x-tab-focus .x-tab-default-top-mr {
     background-image: url(images/tab/tab-default-top-focus-sides.gif);
 }
-/* C:/wamp64/www/qron/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+/* /Users/ardi/projects/Qron/sencha/qron-kpi/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
 .x-tab-focus .x-tab-default-top-mc {
     background-repeat: repeat-x;
     background-image: url(images/tab/tab-default-top-focus-fbg.gif);
