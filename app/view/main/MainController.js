@@ -21,6 +21,7 @@ Ext.define('qron.view.main.MainController', {
 
     getTokenFromLocalStorage: function () {
         var token = localStorage.getItem('qronkpiusertoken');
+        return token;
     },
 
     logout : function () {
