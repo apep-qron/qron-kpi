@@ -66,6 +66,10 @@ Ext.define('qron.view.main.Main', {
                             text:'Settings',
                             iconCls: "settings",
                             menu:[{
+                                text:'Organization',
+                                iconCls:'org',
+                                handler:'mainMenuOrg'
+                            },{
                                 text:'Users',
                                 iconCls: 'users',
                                 handler: 'mainMenuUser'
@@ -87,11 +91,13 @@ Ext.define('qron.view.main.Main', {
         {
             region: 'center',
             border: false,
+            layout:'fit',
             items: [
                 {
                     xtype: 'tabpanel',
                     reference: 'qronMainTabPanel',
                     border: false,
+                    layout:'fit',
                     items: [
                         {
                             title: 'Dashboard',
@@ -101,12 +107,10 @@ Ext.define('qron.view.main.Main', {
                         }
                     ]
                 }
+            ],
+            bbar:[
+                'Online'
             ]
-        },
-        {
-            title: 'Online -|-',
-            region: 'south',
-            resizable: false
         }
     ]
 });
