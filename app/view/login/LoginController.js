@@ -6,9 +6,8 @@ Ext.define('qron.view.login.LoginController', {
         var me = this,
             view = this.getView(),
             form = view.down('form');
-        var endPoint = this.getViewModel().get('apiPoint');
         Ext.Ajax.request({
-            url: endPoint + 'auth/login',
+            url: CONFIG.endPointApi + '/auth/login',
             method: 'POST',
             cors: true,
             useDefaultXhrHeader: false,
@@ -29,11 +28,11 @@ Ext.define('qron.view.login.LoginController', {
     },
 
     saveToken: function (token) {
-        localStorage.setItem('qronkpiusertoken', token);
+        localStorage.setItem(CONFIG.app.lsName, token);
     },
 
     clearToken: function () {
-        localStorage.removeItem('qronkpiusertoken');
+        localStorage.removeItem(CONFIG.app.lsName);
     }
 
 });

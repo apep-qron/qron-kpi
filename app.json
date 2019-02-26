@@ -205,12 +205,20 @@
      */
     "js": [
         {
+          "path": "config.js",
+          "remote": true
+        },
+        {
             "path": "${framework.dir}/build/ext-all-rtl-debug.js"
         },
         {
             "path": "app.js",
             "bundle": true
-        }
+        }/*,
+        {
+            "path": "../lib/ckeditor/ckeditor.js",
+            "remote": true
+        }*/
     ],
 
     /**

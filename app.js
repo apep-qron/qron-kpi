@@ -19,7 +19,7 @@ Ext.application({
     //mainView: 'qron.view.main.Main'
     //mainView: 'qron.view.login.Login'
     launch : function () {
-        var token = localStorage.getItem('qronkpiusertoken');
+        var token = localStorage.getItem(CONFIG.app.lsName);
 
         if(token){
             this.setMainView('qron.view.main.Main');

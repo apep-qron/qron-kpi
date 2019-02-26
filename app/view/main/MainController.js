@@ -20,7 +20,7 @@ Ext.define('qron.view.main.MainController', {
     },
 
     getTokenFromLocalStorage: function () {
-        var token = localStorage.getItem('qronkpiusertoken');
+        var token = localStorage.getItem(CONFIG.app.lsName);
         return token;
     },
 
@@ -29,7 +29,7 @@ Ext.define('qron.view.main.MainController', {
             function (choice) {
                 if (choice === 'yes') {
                     //do clear session here and then reload
-                    localStorage.removeItem('qronkpiusertoken');
+                    localStorage.removeItem(CONFIG.app.lsName);
                     window.location.reload();
                 }
             }
