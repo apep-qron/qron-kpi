@@ -209,6 +209,10 @@
           "remote": true
         },
         {
+            "path": "/resources/js/secure-ls.min.js",
+            "remote": true
+        },
+        {
             "path": "${framework.dir}/build/ext-all-rtl-debug.js"
         },
         {

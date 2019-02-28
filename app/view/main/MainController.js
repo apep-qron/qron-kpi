@@ -19,11 +19,6 @@ Ext.define('qron.view.main.MainController', {
         }
     },
 
-    getTokenFromLocalStorage: function () {
-        var token = localStorage.getItem(CONFIG.app.lsName);
-        return token;
-    },
-
     logout : function () {
         Ext.Msg.confirm('Warning', 'Are you sure want to exit from app ?',
             function (choice) {

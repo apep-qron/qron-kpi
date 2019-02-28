@@ -15,24 +15,16 @@ Ext.define('qron.view.login.LoginController', {
             success: function (response) {
                 var data = Ext.decode(response.responseText);
                 if (data.token) {
-                    me.saveToken(data.token);
+                    localStorage.setItem(CONFIG.app.lsName, JSON.stringify(data));
                     view.destroy();
                     Ext.create('qron.view.main.Main');
                 }
             },
             failure: function() {
-                me.clearToken();
+                localStorage.clear();
                 Ext.Msg.alert('Error','Username or Password not valid!');
             }
         });
-    },
-
-    saveToken: function (token) {
-        localStorage.setItem(CONFIG.app.lsName, token);
-    },
-
-    clearToken: function () {
-        localStorage.removeItem(CONFIG.app.lsName);
     }
 
 });

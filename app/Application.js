@@ -15,6 +15,16 @@ Ext.define('qron.Application', {
         }
     },
 
+    ls: '',
+
+    init: function(){
+        this.ls = new SecureLS({
+            encodingType: 'aes',
+            encryptionSecret: CONFIG.app.key,
+            isCompression: false
+        });
+    },
+
     stores: [
         // TODO: add global / shared stores here
     ],
