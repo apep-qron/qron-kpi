@@ -56,6 +56,32 @@ Ext.define('qron.view.organization.Organization',{
                     border:false,
                     displayInfo: true
                 }
+            ],
+            tbar:[
+                {
+                    xtype:'button',
+                    text:'Add',
+                    iconCls:'add',
+                    handler: function() {
+
+                    }
+                },
+                {
+                    xtype:'button',
+                    text:'Edit',
+                    iconCls:'edit',
+                    handler: function() {
+                        
+                    }
+                },
+                {
+                    xtype:'button',
+                    text:'Delete',
+                    iconCls:'delete',
+                    handler: function() {
+                        
+                    }
+                }
             ]
         }
     ]
