@@ -19,14 +19,26 @@ Ext.application({
     //mainView: 'qron.view.main.Main'
     //mainView: 'qron.view.login.Login'
     launch : function () {
-        var token = localStorage.getItem('qronkpiusertoken');
-
+        var token = localStorage.getItem(CONFIG.app.lsName);
+        //console.log(JSON.parse(token).user);
         if(token){
             this.setMainView('qron.view.main.Main');
         } else {
             Ext.create('qron.view.login.Login');
         }
 
+    },
+
+    saveToken: function (token) {
+        this.ls.set(CONFIG.app.lsName, token);
+    },
+
+    clearToken: function () {
+        this.ls.removeAll(CONFIG.app.lsName);
+    },
+
+    getTokenFromLocalStorage: function () {
+        return this.ls.get(CONFIG.app.lsName);
     }
 
     //-------------------------------------------------------------------------

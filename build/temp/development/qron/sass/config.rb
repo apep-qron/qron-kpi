@@ -1,1 +1,1 @@
-cache_path = '/Users/ardi/projects/Qron/sencha/qron-kpi/build/.sass-cache'
+cache_path = 'C:\wamp64\www\qron/build/.sass-cache'

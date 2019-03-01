@@ -7,8 +7,7 @@ Ext.define('qron.view.main.MainModel', {
     alias: 'viewmodel.main',
 
     data: {
-        name: 'qron',
-        apiPoint: 'http://api.qron.co.id/'
+        name: 'qron'
     }
 
     //TODO - add data, formulas and/or methods to support your view
