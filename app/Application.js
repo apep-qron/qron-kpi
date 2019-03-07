@@ -17,6 +17,10 @@ Ext.define('qron.Application', {
 
     ls: '',
 
+    requires:[
+        'Ext.*'
+    ],
+    
     init: function(){
         this.ls = new SecureLS({
             encodingType: 'aes',

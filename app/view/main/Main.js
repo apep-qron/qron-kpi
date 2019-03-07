@@ -75,7 +75,8 @@ Ext.define('qron.view.main.Main', {
                                 handler: 'mainMenuUser'
                             },{
                                 text: 'Position',
-                                iconCls: 'position'
+                                iconCls: 'position',
+                                handler:'mainMenuPosition'
                             }]
                         },
                         '->',

@@ -40,7 +40,7 @@ Ext.define('qron.view.main.MainController', {
     },
 
     mainMenuPosition: function () {
-        //call main menu position
+        this.loadPanel('mainPositionTabPanel','qron.view.position.Positions');
     },
 
     mainMenuEmployee: function () {
@@ -62,6 +62,7 @@ Ext.define('qron.view.main.MainController', {
             var loadModule = Ext.create(mod);
             tabItem = mainTabPanel.add(loadModule);
         }
+
         mainTabPanel.setActiveTab(tabItem);
     }
 });

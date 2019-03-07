@@ -213,11 +213,19 @@
             "remote": true
         },
         {
-            "path": "${framework.dir}/build/ext-all-rtl-debug.js"
+            "path": "${framework.dir}/build/ext-all-debug.js"
         },
         {
             "path": "app.js",
             "bundle": true
+        },
+        {
+            "path": "/resources/js/jquery.3.3.1.js",
+            "bundle":false
+        },
+        {
+            "path": "/resources/js/jquery-orgchart.js",
+            "bundle":false
         }/*,
         {
             "path": "../lib/ckeditor/ckeditor.js",
@@ -258,6 +266,14 @@
             "path": "${build.out.css.path}",
             "bundle": true,
             "exclude": ["fashion"]
+        },
+        {
+            "path": "/resources/css/styles.css",
+            "bundle":false
+        },
+        {
+            "path": "/resources/css/jquery-orgchart.css",
+            "bundle":false
         }
     ],
 
