@@ -16,7 +16,6 @@ Ext.define('qron.Application', {
     },
 
     ls: '',
-    
     stores: [
         // TODO: add global / shared stores here
     ],
