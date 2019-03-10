@@ -35,6 +35,8 @@ Ext.define('qron.view.position.Positions',{
         proxy: {
             type: 'rest',
             appendId:false,
+            cors: true,
+            useDefaultXhrHeader : false,
             url: CONFIG.endPointApi + 'v1/position',
             reader: {
                 type: 'json',
