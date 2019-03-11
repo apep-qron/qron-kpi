@@ -55,7 +55,8 @@ Ext.define('qron.view.main.Main', {
                             iconCls: "employee",
                             menu:[{
                                 text:'Views',
-                                iconCls: 'list'
+                                iconCls: 'list',
+                                handler:'mainMenuEmployee'
                             },{
                                 text: 'Report',
                                 iconCls: 'report'

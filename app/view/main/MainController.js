@@ -44,7 +44,7 @@ Ext.define('qron.view.main.MainController', {
     },
 
     mainMenuEmployee: function () {
-        //call main menu employee
+        this.loadPanel('mainUsersTabPanel','qron.view.employee.Employee');
     },
 
     mainMenuUser: function () {
