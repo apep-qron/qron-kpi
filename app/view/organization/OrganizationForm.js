@@ -27,6 +27,10 @@ Ext.define('qron.view.organization.OrganizationForm', {
 
         this.items = [
             {
+                xtype:'hidden',
+                name:'id'
+            },
+            {
                 xtype:'textfield',
                 fieldLabel:'Name',
                 anchor:'100%',
@@ -42,6 +46,7 @@ Ext.define('qron.view.organization.OrganizationForm', {
                 valueField: 'id',
                 displayField: 'name',
                 anyMatch: true,
+                id:'tree-cmb-org',
                 allowFolderSelect: true,
                 treeConfig: {
                     maxHeight: 200,

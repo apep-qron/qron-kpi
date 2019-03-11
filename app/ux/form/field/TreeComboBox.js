@@ -26,14 +26,22 @@ Ext.define('app.ux.form.field.TreeComboBox', {
     },
 
     onTreeComboValueChange: function (field, value) {
+        
         this.selectedRecord = false;
+        
         switch (this.queryMode) {
-        case 'local':
-            this.getPicker().doLocalQuery(value)
-            break;
-        case 'remote':
-            this.getPicker().doRemoteQuery(value);
-            break;
+            case 'local':
+                this.getPicker().doLocalQuery(value)
+                break;
+            case 'remote':
+                this.getPicker().doRemoteQuery(value);
+                var node = this.getPicker().store.getNodeById(value);
+                if(node) {
+                    this.getPicker().getSelectionModel().select(node);
+                    this.getPicker().fireEvent('picked', node);
+                    this.collapse();
+                }
+                break;
         }
     },
 

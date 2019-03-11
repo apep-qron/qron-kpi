@@ -3,6 +3,13 @@
  * needed for your application, but these edits will have to be merged by
  * Sencha Cmd when upgrading.
  */
+
+Ext.Ajax.on('beforerequest',function(conn, options, eOpts){
+    options.headers = {
+        'Authorization': 'Bearer ' + Ext.JSON.decode(localStorage['qronkpiusertoken']).token
+    };
+});
+
 Ext.application({
     name: 'qron',
 
