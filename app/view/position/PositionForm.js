@@ -8,6 +8,10 @@ Ext.define('qron.view.position.PositionForm', {
         var me = this;
         this.items = [
             {
+                xtype:'hidden',
+                name:'id'
+            },
+            {
                 xtype:'textfield',
                 fieldLabel:'Name',
                 anchor:'100%',
