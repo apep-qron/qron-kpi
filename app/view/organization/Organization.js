@@ -37,9 +37,15 @@ Ext.define('qron.view.organization.Organization', {
             id:'org-tree-chart-panel',
             html:'<div id="orgchart-pnl" style="height:100%; width:100%; background: #EEE;"></div>',
             loader: {
+                loadMask: {
+                    msg    : 'Loadeing...'
+                },
                 url: CONFIG.endPointApi + 'v1/organizations',
                 renderer: 'data',
-                method:'GET',
+                ajaxOptions : {
+                    cors: true,
+                    useDefaultXhrHeader: false
+                },
                 headers: {
                     'Authorization': 'Bearer ' + Ext.JSON.decode(localStorage['qronkpiusertoken']).token
                 },
@@ -102,6 +108,8 @@ Ext.define('qron.view.organization.Organization', {
                 autoLoad: true,
                 proxy: {
                     type: 'ajax',
+                    cors: true,
+                    useDefaultXhrHeader: false,
                     url: CONFIG.endPointApi + 'v1/organizations',
                     headers: {
                         'Authorization': 'Bearer ' + Ext.JSON.decode(localStorage['qronkpiusertoken']).token
@@ -230,6 +238,7 @@ Ext.define('qron.view.organization.Organization', {
         
                                 Ext.getCmp('frm-org').getForm().load({
                                     method:'GET',
+                                    waitMsg: 'Wait....',
                                     url: CONFIG.endPointApi + 'v1/organizations/loadById?id=' + id,
                                     headers: {
                                         'Authorization': 'Bearer ' + Ext.JSON.decode(localStorage['qronkpiusertoken']).token
