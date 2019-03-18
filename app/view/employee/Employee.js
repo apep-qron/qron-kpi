@@ -1,26 +1,26 @@
 
-Ext.define('qron.view.position.Positions',{
+Ext.define('qron.view.employee.Employee',{
     extend: 'Ext.grid.Panel',
 
     requires: [
-        'qron.view.position.PositionsController',
-        'qron.view.position.PositionsModel',
-        'qron.view.position.PositionForm'
+        'qron.view.employee.EmployeeController',
+        'qron.view.employee.EmployeeModel',
+        'qron.view.employee.EmployeeForm'
     ],
 
     reference: 'mainPositionTabPanel',
 
-    title: 'Positions',
+    title: 'Employee',
     closable: true,
     border: false,
-    iconCls: 'Positions',
+    iconCls: 'Employee',
 
-    controller: 'positions-positions',
+    controller: 'employee-employee',
     viewModel: {
-        type: 'positions-positions'
+        type: 'employee-employee'
     },
-
-    iconCls: "position",
+    
+    iconCls: "employee",
 
     viewConfig:{
         loadMask:false
@@ -28,26 +28,62 @@ Ext.define('qron.view.position.Positions',{
 
     columns:[
         {
-            text:'Name',
-            dataIndex:'name',
-            flex: 1,
-            align:'left'
+            text:'First Name',
+            dateIndex:'first_name',
+            flex: 1
+        },
+        {
+            text:'Middle Name',
+            dateIndex:'middle_name',
+            flex: 1
+        },
+        {
+            text:'Last Name',
+            dateIndex:'last_name',
+            flex: 1
+        },
+        {
+            text:'Place Of Birth',
+            dateIndex:'place_of_birth',
+            flex: 1
+        },
+        {
+            text:'Date Of Birth',
+            dateIndex:'date_of_birth',
+            width:150
+        },
+        {
+            text:'Position Name',
+            dateIndex:'position_name',
+            flex: 1
+        },
+        {
+            text:'Organization Name',
+            dateIndex:'organization_name',
+            flex: 1
         }
     ],
 
-    id:'grid-position',
+    id:'grid-employee',
 
     store: Ext.create('Ext.data.Store', {
+        storeId:'store-employee',
         fields: [
-            'id','name'
+            {name: 'id', type: 'int'},
+            {name: 'first_name', type: 'string'},
+            {name: 'middle_name', type: 'string'},
+            {name: 'last_name', type: 'string'},
+            {name: 'place_of_birth', type: 'string'},
+            {name: 'date_of_birth', type: 'string'},
+            {name: 'position_name', type: 'string'},
+            {name: 'organization_name', type: 'string'}
         ],
-        storeId:'store-positions',
         proxy: {
             type: 'rest',
             appendId:false,
             cors: true,
             useDefaultXhrHeader : false,
-            url: CONFIG.endPointApi + 'v1/position',
+            url: CONFIG.endPointApi + 'v1/employee',
             reader: {
                 type: 'json',
                 root: 'data',
@@ -57,7 +93,12 @@ Ext.define('qron.view.position.Positions',{
         },
         autoLoad: true
     }),
-
+    bbar:[{
+        xtype: 'pagingtoolbar',
+        store: Ext.data.StoreManager.lookup('store-employee'),
+        border:false,
+        displayInfo: true
+    }],
     tbar:[
         {
             xtype:'button',
@@ -65,30 +106,32 @@ Ext.define('qron.view.position.Positions',{
             iconCls:'add',
             handler: function() {
                 var win = Ext.create('Ext.Window',{
-                    title:'Add Position',
+                    title:'Add Employee',
                     width:400,
                     modal:true,
                     constrain:true,
                     resizable:false,
                     bodyStyle:'border:none;background:transparent;',
                     items:[
-                        Ext.create('qron.view.position.PositionForm')
+                        Ext.create('qron.view.employee.EmployeeForm')
                     ],
                     buttons:[
                         '->',
                         {
                             xtype: 'button',
                             text: 'Save',
-                            id: 'btn-edit-frm-position',
+                            id: 'btn-edit-frm-employee',
                             iconCls: 'save',
                             handler: function(c) {
-                                var frm = Ext.getCmp('frm-position').getForm();
+                                var frm = Ext.getCmp('frm-employee').getForm();
                                 
                                 if(frm.isValid()) {
                                     frm.submit({
-                                        url: CONFIG.endPointApi + 'v1/position/add',
-                                        headers: {
-                                            'Authorization' : 'Bearer ' + Ext.JSON.decode(localStorage['qronkpiusertoken']).token
+                                        url: CONFIG.endPointApi + 'v1/employee/add',
+                                        success: function() {
+                                            Ext.Msg.alert('Success', 'Successfully Save Data.', Ext.emptyFn);
+                                            win.close();
+                                            Ext.data.StoreManager.lookup('store-employee').load();
                                         }
                                     });
                                 }
@@ -97,7 +140,7 @@ Ext.define('qron.view.position.Positions',{
                             xtype: 'button',
                             text: 'Cancel',
                             iconCls: 'cancel',
-                            id: 'btn-cancel-frm-position',
+                            id: 'btn-cancel-frm-employee',
                             handler: function() {
                                 win.close();
                             }
@@ -111,7 +154,7 @@ Ext.define('qron.view.position.Positions',{
             text:'Edit',
             iconCls:'edit',
             handler: function() {
-                var sel = Ext.getCmp('grid-position').getSelection();
+                var sel = Ext.getCmp('grid-employee').getSelection();
                         
                     if(sel.length === 1) {
 
@@ -119,32 +162,32 @@ Ext.define('qron.view.position.Positions',{
                             var id = rec.get('id');
 
                             var win = Ext.create('Ext.Window',{
-                                title:'Edit Position',
+                                title:'Edit Employee',
                                 width:400,
                                 modal:true,
                                 constrain:true,
                                 resizable:false,
                                 bodyStyle:'border:none;background:transparent;',
                                 items:[
-                                    Ext.create('qron.view.position.PositionForm')
+                                    Ext.create('qron.view.employee.EmployeeForm')
                                 ],
                                 buttons:[
                                     '->',
                                     {
                                         xtype: 'button',
                                         text: 'Save',
-                                        id: 'btn-edit-frm-position',
+                                        id: 'btn-edit-frm-employee',
                                         iconCls: 'save',
                                         handler: function(c) {
-                                            var frm = Ext.getCmp('frm-position').getForm();
+                                            var frm = Ext.getCmp('frm-employee').getForm();
                                             
                                             if(frm.isValid()) {
                                                 frm.submit({
                                                     method:'PUT',
-                                                    url: CONFIG.endPointApi + 'v1/position/edit',
+                                                    url: CONFIG.endPointApi + 'v1/employee/edit',
                                                     success: function() {
                                                         win.close();
-                                                        Ext.getCmp('grid-position').store.load();
+                                                        Ext.data.StoreManager.lookup('store-employee').load();
                                                     }
                                                 });
                                             }
@@ -153,7 +196,7 @@ Ext.define('qron.view.position.Positions',{
                                         xtype: 'button',
                                         text: 'Cancel',
                                         iconCls: 'cancel',
-                                        id: 'btn-cancel-frm-position',
+                                        id: 'btn-cancel-frm-employee',
                                         handler: function() {
                                             win.close();
                                         }
@@ -161,9 +204,9 @@ Ext.define('qron.view.position.Positions',{
                                 ]
                             }).show();
 
-                            Ext.getCmp('frm-position').getForm().load({
+                            Ext.getCmp('frm-employee').getForm().load({
                                 method:'GET',
-                                url: CONFIG.endPointApi + 'v1/position/loadById?id=' + id,
+                                url: CONFIG.endPointApi + 'v1/employee/loadById?id=' + id,
                                 success: function(c,response) {
                                    
                                 }
@@ -179,7 +222,7 @@ Ext.define('qron.view.position.Positions',{
             handler: function() {
                 Ext.MessageBox.confirm('Confirm', 'Are you sure?', function(val){
                     if(val === 'yes') {
-                        var sel = Ext.getCmp('grid-position').getSelection();
+                        var sel = Ext.getCmp('grid-employee').getSelection();
                 
                         if(sel.length === 1) {
 
@@ -187,10 +230,10 @@ Ext.define('qron.view.position.Positions',{
                                 var id = rec.get('id');
 
                                 Ext.Ajax.request({
-                                    url: CONFIG.endPointApi + 'v1/position/delete?id=' + id,
+                                    url: CONFIG.endPointApi + 'v1/employee/delete?id=' + id,
                                     method:'DELETE',
                                     success: function(response){
-                                        Ext.getCmp('grid-position').store.load();
+                                        Ext.getCmp('grid-employee').store.load();
                                     }
                                 });
                             });
@@ -199,11 +242,5 @@ Ext.define('qron.view.position.Positions',{
                 });
             }
         }
-    ],
-    bbar:[{
-        xtype: 'pagingtoolbar',
-        store: Ext.data.StoreManager.lookup('store-positions'),
-        border:false,
-        displayInfo: true
-    }]
+    ]
 });

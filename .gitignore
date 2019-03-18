@@ -1,0 +1,8 @@
+#ignore directory
+
+build/
+
+#ignore file
+.DS_Store
+
+
